@@ -11,4 +11,4 @@ module.exports=[{header:{discipline:0,disciplineName:"Meteorological products",g
 },{}],"H99C":[function(require,module,exports) {
 "use strict";var e=n(require("mapbox-gl")),a=require("./windy"),r=n(require("./wind-global.json"));function n(e){return e&&e.__esModule?e:{default:e}}require("mapbox-gl/dist/mapbox-gl.css"),require("./styles.css"),e.default.accessToken="pk.eyJ1IjoidGhlZ2lzZGV2IiwiYSI6ImNqdGQ5dGg5ZzEycDgzeXA4dzZhenp3YzEifQ.54Em__v1ZweuQqIRuD6oww";const s=new e.default.Map({container:"map",style:"mapbox://styles/mapbox/streets-v9",zoom:2,center:[30.585,-8.754]});s.on("load",function(){const e=(0,a.createWindyLayer)("windy-layer","windyLayerCanvas",{data:r.default});s.addLayer(e)});
 },{"mapbox-gl":"Kb8R","./windy":"k1uV","./wind-global.json":"l8wP","mapbox-gl/dist/mapbox-gl.css":"X279","./styles.css":"X279"}]},{},["H99C"], null)
-//# sourceMappingURL=/src.49af276e.js.map
+//# sourceMappingURL=src.49af276e.js.map
