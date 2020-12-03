@@ -63,3 +63,5 @@ typings/
 # Parcel related files
 dist/
 .cache/
+
+docs/*.map

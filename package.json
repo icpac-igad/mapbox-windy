@@ -5,13 +5,14 @@
     "license": "MIT",
     "scripts": {
         "start": "parcel index.html --open",
-        "build": "parcel build index.html"
+        "build": "parcel build index.html --out-dir docs"
     },
     "dependencies": {
         "mapbox-gl": "^1.13.0"
     },
     "devDependencies": {
-        "@babel/core": "^7.12.9"
+        "@babel/core": "^7.12.9",
+        "cssnano": "^4.1.10"
     },
     "browserslist": [
         "last 1 Chrome version"
